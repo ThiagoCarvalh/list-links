@@ -2,9 +2,15 @@ import { useState } from 'react'
 
 function App() {
   return (
-    <div>
-      Meu app react
-    </div>
+    <>
+    <AdminMenu />
+    <Link to="/login">Login</Link>
+    <ListLinks />
+    
+    </>
+    
+     
+    
   )
 }
 
