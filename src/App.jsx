@@ -1,16 +1,10 @@
-import { useState } from 'react'
+
+import ListLinks from "./components/ListLinks";
+import './App.css';
 
 function App() {
   return (
-    <>
-    <AdminMenu />
-    <Link to="/login">Login</Link>
     <ListLinks />
-    
-    </>
-    
-     
-    
   )
 }
 
